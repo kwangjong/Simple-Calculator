@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd "$(dirname "$0")"
+export CLASSPATH=$CLASSPATH:"$(dirname "$0")/processingLibrary.jar"
+javac -cp processingLibrary.jar Calculator.java Button.java CalcGUI.java OperationButton.java NumberButton.java Display.java
+java Calculator
