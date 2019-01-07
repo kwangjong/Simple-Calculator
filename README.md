@@ -10,8 +10,7 @@ Execute bash file 'run' to start application
 ## Authors
 KJ Choi
 
-License
--------
+## License
 MIT License
 
 Copyright (c) 2018 Kwangjong Choi
